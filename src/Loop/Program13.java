@@ -6,8 +6,10 @@ import java.util.*;
 import static java.lang.System.out;
 
 public class Program13 {
-	public static void main(String[] adcd) {
+	public static void main (String[] adcd) {
 		Scanner sc = new Scanner(System.in);
+		
+		
 		
 		int start,end;
 		out.println("Enter Start Range");
@@ -40,8 +42,11 @@ public class Program13 {
 		out.println("Even Numbers Between "+start+" and "+end+" are");
 		if((start&1) == 1)
 			start++;
+		else
+			start+=2;
 		
 		while(start<end) {
+			
 			
 			out.println(start);
 			start+=2;
