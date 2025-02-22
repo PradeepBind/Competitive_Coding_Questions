@@ -45,9 +45,7 @@ public class Program13 {
 		else
 			start+=2;
 		
-		while(start<end) {
-			
-			
+		while(start<end) {			
 			out.println(start);
 			start+=2;
 			

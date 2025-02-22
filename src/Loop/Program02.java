@@ -1,4 +1,4 @@
-//Q2. Accept a number from the user and find the factorial of the number
+// Q2. Accept a number from the user and find the factorial of the number
 
 package Loop;
 import java.util.*;
